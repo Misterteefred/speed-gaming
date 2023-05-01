@@ -39,6 +39,7 @@ elCroixSearch2.addEventListener("click", closeSearch2);
 window.addEventListener("scroll", scrollFunction);
 window.addEventListener("load", () => {
   elInput.style.backgroundImage = "url(image/logos/menu/search.svg)";
+  elInput2.style.backgroundImage = "url(image/logos/menu/search.svg)";
 });
 
 function clickSearch() {
